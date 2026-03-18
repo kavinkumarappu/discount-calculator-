@@ -1,0 +1,11 @@
+{
+  "name": "discount-calculator-complete",
+  "version": "1.0.0",
+  "description": "Integrated Discount Calculator",
+  "scripts": {
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "build-client": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "dev": "cd server && npm run dev"
+  }
+}
